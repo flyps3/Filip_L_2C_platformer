@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &3014334231359642695
+--- !u!1001 &2489507871147066801
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -10,7 +10,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3070715819339392934, guid: 834dd79fae9548344a4b967f37ca3683, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.864
+      value: 0.998
       objectReference: {fileID: 0}
     - target: {fileID: 3070715819339392934, guid: 834dd79fae9548344a4b967f37ca3683, type: 3}
       propertyPath: m_LocalPosition.y
@@ -18,7 +18,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3070715819339392934, guid: 834dd79fae9548344a4b967f37ca3683, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.1437464
+      value: -2.091
       objectReference: {fileID: 0}
     - target: {fileID: 3070715819339392934, guid: 834dd79fae9548344a4b967f37ca3683, type: 3}
       propertyPath: m_LocalRotation.w
@@ -51,7 +51,7 @@ PrefabInstance:
     - target: {fileID: 3142287968356531200, guid: 834dd79fae9548344a4b967f37ca3683, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: c0e8b78374d0f744795df15cba24b92e, type: 2}
+      objectReference: {fileID: 2100000, guid: 1f54dc3fc430b824291c95edec8affe7, type: 2}
     - target: {fileID: 4610195363124383269, guid: 834dd79fae9548344a4b967f37ca3683, type: 3}
       propertyPath: m_Name
       value: Cube (1) Variant

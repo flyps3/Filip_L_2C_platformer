@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.51f1 (9f9d16c45e54) revision 10460438'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.26200) 64bit Enterprise' Language: 'pl' Physical Memory: 130859 MB
+OS: 'Windows 11  (10.0.26200) 64bit Professional' Language: 'pl' Physical Memory: 130859 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -15,7 +15,7 @@ C:/Users/LAB1-Student06/Documents/Flyps/Filip_L_2C_platformer
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56743
+58051
 Successfully changed project path to: C:/Users/LAB1-Student06/Documents/Flyps/Filip_L_2C_platformer
 C:/Users/LAB1-Student06/Documents/Flyps/Filip_L_2C_platformer
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/LAB1-Student06/Documents/Flyps/Filip_L_2C_platformer
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [20112]  Target information:
+Player connection [32372]  Target information:
 
-Player connection [20112]  * "[IP] 192.168.11.205 [Port] 0 [Flags] 2 [Guid] 2780620134 [EditorId] 2780620134 [Version] 1048832 [Id] WindowsEditor(7,LAB1-Komputer06-N) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [32372]  * "[IP] 192.168.11.205 [Port] 0 [Flags] 2 [Guid] 997187479 [EditorId] 997187479 [Version] 1048832 [Id] WindowsEditor(7,LAB1-Komputer06-N) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [20112] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [20112] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [32372] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [32372] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
 Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -72,44 +72,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.51f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.51f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.51f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56584
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56772
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.51f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005113 seconds.
-- Loaded All Assemblies, in  0.245 seconds
+Registered in 0.004412 seconds.
+- Loaded All Assemblies, in  0.198 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.142 seconds
-Domain Reload Profiling: 387ms
-	BeginReloadAssembly (111ms)
+- Finished resetting the current domain, in  0.150 seconds
+Domain Reload Profiling: 347ms
+	BeginReloadAssembly (61ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (21ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (33ms)
-	LoadAllAssembliesAndSetupDomain (74ms)
-		LoadAssemblies (109ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (5ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (78ms)
+		LoadAssemblies (59ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (73ms)
-			TypeCache.Refresh (72ms)
-				TypeCache.ScanAssembly (65ms)
+		AnalyzeDomain (77ms)
+			TypeCache.Refresh (76ms)
+				TypeCache.ScanAssembly (68ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (142ms)
+	FinalizeReload (150ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (117ms)
+		SetupLoadedEditorAssemblies (125ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (6ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (79ms)
-			ProcessInitializeOnLoadMethodAttributes (27ms)
+			ProcessInitializeOnLoadAttributes (86ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,12 +118,12 @@ Domain Reload Profiling: 387ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.121 seconds
+- Loaded All Assemblies, in  0.120 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.176 seconds
-Domain Reload Profiling: 297ms
-	BeginReloadAssembly (81ms)
+- Finished resetting the current domain, in  0.179 seconds
+Domain Reload Profiling: 298ms
+	BeginReloadAssembly (78ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
@@ -131,37 +131,37 @@ Domain Reload Profiling: 297ms
 		CreateAndSetChildDomain (11ms)
 	RebuildCommonClasses (19ms)
 	RebuildNativeTypeToScriptingClass (5ms)
-	initialDomainReloadingComplete (12ms)
-	LoadAllAssembliesAndSetupDomain (3ms)
-		LoadAssemblies (45ms)
+	initialDomainReloadingComplete (13ms)
+	LoadAllAssembliesAndSetupDomain (4ms)
+		LoadAssemblies (47ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (3ms)
 			TypeCache.Refresh (2ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (177ms)
+	FinalizeReload (180ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (111ms)
+		SetupLoadedEditorAssemblies (116ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
+			InitializePlatformSupportModulesInManaged (4ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (14ms)
-			ProcessInitializeOnLoadAttributes (77ms)
+			BeforeProcessingInitializeOnLoad (15ms)
+			ProcessInitializeOnLoadAttributes (79ms)
 			ProcessInitializeOnLoadMethodAttributes (10ms)
 			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (4ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
 Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 3 unused Assets / (40.1 KB). Loaded Objects now: 477.
 Memory consumption went from 50.2 MB to 50.1 MB.
-Total: 1.513500 ms (FindLiveObjects: 0.024400 ms CreateObjectMapping: 0.002300 ms MarkObjects: 1.443100 ms  DeleteObjects: 0.043300 ms)
+Total: 1.537200 ms (FindLiveObjects: 0.021500 ms CreateObjectMapping: 0.002600 ms MarkObjects: 1.477800 ms  DeleteObjects: 0.034800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -179,60 +179,305 @@ AssetImportParameters requested are different than current active one (requested
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 3971.400709 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
- -> (artifact id: 'ae5280ad91af67e2a353905758f96678') in 0.001705 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 25.058201 seconds.
+  Time since last request: 410513.856573 seconds.
   path: Assets/New Material.mat
   artifactKey: Guid(d565b7bc71cc53046bf814408cf3d008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/New Material.mat using Guid(d565b7bc71cc53046bf814408cf3d008) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
- -> (artifact id: 'dd69d8a573c00f77bb4cd942841c4623') in 0.117106 seconds
+ -> (artifact id: 'd219f33c2b21185d9737323ca23fb02b') in 0.095853 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 1390.993019 seconds.
+  Time since last request: 177.684017 seconds.
   path: Assets/Cube.prefab
   artifactKey: Guid(834dd79fae9548344a4b967f37ca3683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Cube.prefab using Guid(834dd79fae9548344a4b967f37ca3683) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
- -> (artifact id: '9391e4358eba6f7aec8628da2f9bc336') in 0.014623 seconds
+ -> (artifact id: 'f3d7eed39dda7e81576cb36d0acb2131') in 0.013024 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
+Number of asset objects unloaded after import = 10
 ========================================================================
 Received Import Request.
-  Time since last request: 22.131324 seconds.
+  Time since last request: 11.963381 seconds.
   path: Assets/Cube.prefab
   artifactKey: Guid(834dd79fae9548344a4b967f37ca3683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Cube.prefab using Guid(834dd79fae9548344a4b967f37ca3683) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
- -> (artifact id: '122c7092b22a56bb3cb8c669b0842a84') in 0.005246 seconds
+ -> (artifact id: '568aa1319defb28173051dc4c72b8bf6') in 0.005709 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
+Number of asset objects unloaded after import = 10
 ========================================================================
 Received Import Request.
-  Time since last request: 159.465431 seconds.
-  path: Assets/New Material 1.mat
-  artifactKey: Guid(c0e8b78374d0f744795df15cba24b92e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Material 1.mat using Guid(c0e8b78374d0f744795df15cba24b92e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+  Time since last request: 2.409060 seconds.
+  path: Assets/Cube.prefab
+  artifactKey: Guid(834dd79fae9548344a4b967f37ca3683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube.prefab using Guid(834dd79fae9548344a4b967f37ca3683) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
- -> (artifact id: '8bd99000b182bcf7da35dd8fa879fe73') in 0.005462 seconds
+ -> (artifact id: 'cc51aee7584973e3e3c2c115b8a2431f') in 0.006013 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 1.405476 seconds.
+  path: Assets/Cube.prefab
+  artifactKey: Guid(834dd79fae9548344a4b967f37ca3683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube.prefab using Guid(834dd79fae9548344a4b967f37ca3683) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '75285463ac5d6f52c0136f89efd37565') in 0.005764 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 3.009456 seconds.
+  path: Assets/Cube.prefab
+  artifactKey: Guid(834dd79fae9548344a4b967f37ca3683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube.prefab using Guid(834dd79fae9548344a4b967f37ca3683) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'c90e118c6469e392bdf02c6f4f7fb9d9') in 0.006241 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 205.731273 seconds.
+  path: Assets/New Material 2.mat
+  artifactKey: Guid(1f54dc3fc430b824291c95edec8affe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Material 2.mat using Guid(1f54dc3fc430b824291c95edec8affe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '3f0d490f3fe4bdf28b540dbe590f258a') in 0.006432 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 19.825900 seconds.
+  Time since last request: 80.244173 seconds.
   path: Assets/Cube (1) Variant.prefab
   artifactKey: Guid(a86b84fbe3e87214286852e71402ab74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Cube (1) Variant.prefab using Guid(a86b84fbe3e87214286852e71402ab74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
- -> (artifact id: '837a3c39ea00304cff7fae5ee2236e40') in 0.006359 seconds
+ -> (artifact id: 'e8a8203f6f2dc08199aaa13a71dcd4a1') in 0.007225 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 5.813493 seconds.
+  path: Assets/Cube (1) Variant.prefab
+  artifactKey: Guid(a86b84fbe3e87214286852e71402ab74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube (1) Variant.prefab using Guid(a86b84fbe3e87214286852e71402ab74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'd65190c52dbe60581defa3056d1b6d10') in 0.005386 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 15.520587 seconds.
+  path: Assets/Cube (1) Variant.prefab
+  artifactKey: Guid(a86b84fbe3e87214286852e71402ab74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube (1) Variant.prefab using Guid(a86b84fbe3e87214286852e71402ab74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '89f5e8f3b7abe1c12178c954e5d1cc11') in 0.006336 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 13.075882 seconds.
+  path: Assets/Cube (1) Variant.prefab
+  artifactKey: Guid(a86b84fbe3e87214286852e71402ab74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube (1) Variant.prefab using Guid(a86b84fbe3e87214286852e71402ab74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '5f507663c4c0eaaf8947c06de29f45e8') in 0.005232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 405.857276 seconds.
+  path: Assets/Cube (1) Variant 1.prefab
+  artifactKey: Guid(4e3f62f16e18b69449adf964a10f57e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube (1) Variant 1.prefab using Guid(4e3f62f16e18b69449adf964a10f57e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '523bcf855f7533b1bd43ab3d1070774a') in 0.007055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 8.224966 seconds.
+  path: Assets/Cube (2) Variant.prefab
+  artifactKey: Guid(38ec75909431a5a4e8881a9c1664db18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube (2) Variant.prefab using Guid(38ec75909431a5a4e8881a9c1664db18) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '228778d9b26d05026678ed9664592189') in 0.006428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 7.476788 seconds.
+  path: Assets/Cube (1) Variant 1.prefab
+  artifactKey: Guid(4e3f62f16e18b69449adf964a10f57e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube (1) Variant 1.prefab using Guid(4e3f62f16e18b69449adf964a10f57e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '373954ac9acf8faa5a0fe3ddeb09156a') in 0.000670 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 53.545556 seconds.
+  path: Assets/Cube (1) Variant.prefab
+  artifactKey: Guid(a86b84fbe3e87214286852e71402ab74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube (1) Variant.prefab using Guid(a86b84fbe3e87214286852e71402ab74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'def8c0655285fc77b93a2b767293fb5a') in 0.005400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.009952 seconds.
+  path: Assets/Cube (1) Variant 1.prefab
+  artifactKey: Guid(4e3f62f16e18b69449adf964a10f57e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube (1) Variant 1.prefab using Guid(4e3f62f16e18b69449adf964a10f57e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'c407025c3a85bc208941c047bba1b41f') in 0.005303 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 56.694138 seconds.
+  path: Assets/Cube (2) Variant 1.prefab
+  artifactKey: Guid(e37206f5e2f202a43aefd70e850f832c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube (2) Variant 1.prefab using Guid(e37206f5e2f202a43aefd70e850f832c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '570184c09a7f3eb5bddf1c79513f6efb') in 0.005289 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 527.727588 seconds.
+  path: Assets/Cube (3) Variant.prefab
+  artifactKey: Guid(c393896b2fe874441ae592e7210ddfd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube (3) Variant.prefab using Guid(c393896b2fe874441ae592e7210ddfd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '110db95525fb2f7de8e6d5b1cfef1e88') in 0.006560 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 48.106923 seconds.
+  path: Assets/Cube (4) Variant.prefab
+  artifactKey: Guid(f010f85b3183c7f46b0bd7f7785bc067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube (4) Variant.prefab using Guid(f010f85b3183c7f46b0bd7f7785bc067) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '3f3cf1c76af72e513f142bd8d4975210') in 0.006019 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 66.409817 seconds.
+  path: Assets/Cube (5) Variant.prefab
+  artifactKey: Guid(c44a7bc989aed9940a9b2ce23d4710ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube (5) Variant.prefab using Guid(c44a7bc989aed9940a9b2ce23d4710ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'e5ddec0253c2e584d357232e3fdd7327') in 0.008707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 33.128493 seconds.
+  path: Assets/Cube (6) Variant.prefab
+  artifactKey: Guid(d1c7ce5748b3adc428950d93ac95c7b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube (6) Variant.prefab using Guid(d1c7ce5748b3adc428950d93ac95c7b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '798e06ca71ba56a23b10cb53b8ee767e') in 0.005662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 101.552081 seconds.
+  path: Assets/New Material 3.mat
+  artifactKey: Guid(5f0aafcd5147e5c43bac40694e590385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Material 3.mat using Guid(5f0aafcd5147e5c43bac40694e590385) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'cd98be2d11da64a0f94e363bfa31906b') in 0.005093 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 49.771895 seconds.
+  path: Assets/Cube (2) Variant 1.prefab
+  artifactKey: Guid(e37206f5e2f202a43aefd70e850f832c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube (2) Variant 1.prefab using Guid(e37206f5e2f202a43aefd70e850f832c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '433998783e5c1960e57488a25bc1449d') in 0.005653 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Cube (6) Variant.prefab
+  artifactKey: Guid(d1c7ce5748b3adc428950d93ac95c7b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube (6) Variant.prefab using Guid(d1c7ce5748b3adc428950d93ac95c7b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'b89a202e03b0eb3b76f2b9ce7c1fec76') in 0.004804 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 31.074372 seconds.
+  path: Assets/Cube.prefab
+  artifactKey: Guid(834dd79fae9548344a4b967f37ca3683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube.prefab using Guid(834dd79fae9548344a4b967f37ca3683) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '7acd7e37fc47ae0d2733275649c42a38') in 0.007782 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.002912 seconds.
+  path: Assets/Cube (4) Variant.prefab
+  artifactKey: Guid(f010f85b3183c7f46b0bd7f7785bc067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube (4) Variant.prefab using Guid(f010f85b3183c7f46b0bd7f7785bc067) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '5625c34cb326f1dcd7b527263fe833e2') in 0.005615 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Cube (3) Variant.prefab
+  artifactKey: Guid(c393896b2fe874441ae592e7210ddfd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube (3) Variant.prefab using Guid(c393896b2fe874441ae592e7210ddfd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '95ab3416821fbc0ff317fe4389d8369f') in 0.005097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Cube (2) Variant.prefab
+  artifactKey: Guid(38ec75909431a5a4e8881a9c1664db18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube (2) Variant.prefab using Guid(38ec75909431a5a4e8881a9c1664db18) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '05882df6b00e7ac82ba3f47190b55ef9') in 0.010732 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.018906 seconds.
+  path: Assets/Cube (2) Variant 1.prefab
+  artifactKey: Guid(e37206f5e2f202a43aefd70e850f832c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube (2) Variant 1.prefab using Guid(e37206f5e2f202a43aefd70e850f832c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '6fb5399438ee9a8d5dcce1d743f93e72') in 0.004852 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Cube (6) Variant.prefab
+  artifactKey: Guid(d1c7ce5748b3adc428950d93ac95c7b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube (6) Variant.prefab using Guid(d1c7ce5748b3adc428950d93ac95c7b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'a321469cfcc88ee526e6b8d93e0040bb') in 0.006118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: Operacja We/Wy zosta³a przerwana z powodu zakoñczenia w¹tku lub ¿¹dania aplikacji.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
